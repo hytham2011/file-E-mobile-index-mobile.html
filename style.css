@@ -4,15 +4,16 @@ header{
     position: fixed;
     z-index: 999;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    padding: 15px 50px;
-    border-radius: 15px ;
+    padding: 15px 29.5px;
+    border-radius: 15px 0;
+     
 }
 .navigation a{
     color: rgb(255, 145, 0);
     text-decoration: none;
-    padding: 0 15px;
+    padding: 15px 29.5px;
     border-radius: 15px;
     transition: 0.9s ease;
 }
@@ -23,7 +24,7 @@ header{
 
 }
 .section{
-    padding: 120px 15px;
+    padding: 15px 11px;
     display: flex;
     width: 95%;
     background-color: rgb(0, 0, 0);
@@ -102,12 +103,15 @@ header{
     font-size: 4.5em;
 }
 .contact-us{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     text-align: center;
+    padding: 15px 0.3px;
+
+
 }
 .contact-us p{
-    font-size: 1.5em;
+    font-size: 1.5em ;
 }
 .footer{
     background-color: rgb(255, 145, 0);
@@ -118,8 +122,8 @@ header{
     font-size: 0.6em;
 }
 .about-us{
-    background-color: black;
-    padding: 100px 15px;
+    background-color: rgb(0, 0, 0);
+    padding: 15px 11px;
      
     width: 95%;
     justify-content: space-around;
@@ -129,4 +133,9 @@ header{
 .about-us p{
     color: rgb(255, 145, 0);
     font-size: 1.4em;
+}
+@media screen {
+    body{
+        width: 100%;
+    }
 }
